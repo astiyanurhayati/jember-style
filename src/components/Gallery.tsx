@@ -4,10 +4,10 @@ import f3 from "@/assets/f3.jpeg";
 import f4 from "@/assets/f4.jpeg";
 
 const galleryItems = [
-  { image: f1, title: "Classic Fade", category: "Paket Regular", bgColor: "bg-card/90" },
-  { image: f2, title: "Creative Color", category: "Warna Fashion", bgColor: "bg-accent/90" },
-  { image: f3, title: "Textured Crop", category: "Styling", bgColor: "bg-foreground/90 text-background" },
-  { image: f4, title: "Pompadour", category: "Potongan Klasik", bgColor: "bg-card/90" },
+  { image: f1, title: "QUIFF", category: "Paket Regular", bgColor: "bg-card/90" },
+  { image: f2, title: "CORNROW", category: "Warna Fashion", bgColor: "bg-accent/90" },
+  { image: f3, title: "DESIGN CORNROW", category: "Styling", bgColor: "bg-foreground/90 text-background" },
+  { image: f4, title: "SKIN FADE X HAIR TATTO", category: "Potongan Klasik", bgColor: "bg-card/90" },
 ];
 
 export const Gallery = () => {

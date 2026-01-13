@@ -6,13 +6,16 @@ const services = [
   { name: "Paket Basic", description: "Konsultasi, Potong Rambut, Hairtonic, Styling", price: "35k", label: "POPULER" },
   { name: "Downperm + Rootlift", description: "Tampilan sleek, tanpa volume samping", price: "150k", label: "TRENDING" },
   { name: "Full Color Fashion", description: "Warna Vibrant & Fashion", price: "300k", label: "PREMIUM" },
-  { name: "Hairlight Color", description: "Teknik Highlight", price: "250k", label: "FAVORIT" },
+  { name: "Hairlight Color", description: "Teknik Highlight", price: "300k", label: "FAVORIT" },
+  { name: "CORNROW", description: "Teknik Highlight", price: "300k", label: "FAVORIT" },
+  { name: "CORNROW EXTENSION", description: "Teknik Highlight", price: "400k", label: "FAVORIT" },
+  { name: "PERMING", description: "Teknik Highlight", price: "200k", label: "FAVORIT" },
 ];
 
 const featuredDefault = { 
   name: "Paket Regular", 
   description: "Pengalaman grooming lengkap: Konsultasi, Potong Rambut, Cuci, Hairtonic, Styling, dan Minuman segar.", 
-  price: "45k",
+  price: "35k",
   label: "BEST SELLER"
 };
 
@@ -67,7 +70,16 @@ export const Services = () => {
           </div>
         </div>
 
-        {/* List Items */}
+
+ <div className="border-b border-border p-6 flex items-center justify-between hover:bg-muted/50 cursor-pointer transition-colors group
+          ">
+            <div className="flex flex-col gap-1">
+              <span className="font-bold text-lg uppercase tracking-tight text-foreground group-hover:text-accent font-display">
+              START FROM
+              </span>
+            </div>
+          </div>
+
         {services.map((service, idx) => (
           <div
             key={idx}

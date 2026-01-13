@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, CalendarCheck } from "lucide-react";
 import { Button } from "./ui/button";
-
+import logoImage from '../assets/logo.jpeg'
 export const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -21,11 +21,11 @@ export const Navigation = () => {
     >
       <div className="flex h-20 max-w-[1500px] mx-auto px-6 items-center justify-between">        {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <img 
-            src="/src/assets/logo.jpeg" 
-            alt="New Way Hair Studio Logo" 
-            className="w-8 h-8 object-contain rounded-sm group-hover:opacity-80 transition-opacity"
-          />
+         <img 
+          src={logoImage} 
+          alt="New Way Hair Studio Logo" 
+          className="w-8 h-8 object-contain rounded-sm group-hover:opacity-80 transition-opacity"
+        />
           <span className="font-semibold text-lg tracking-tight uppercase font-display">
             New Way
             <span className="text-muted-foreground text-xs ml-1 font-normal normal-case hidden sm:inline-block font-body">
