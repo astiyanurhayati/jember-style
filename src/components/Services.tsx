@@ -20,7 +20,7 @@ const featuredDefault = {
 };
 
 // Nomor WhatsApp bisnis (ganti dengan nomor yang sebenarnya)
-const WHATSAPP_NUMBER = "6281234567890";
+const WHATSAPP_NUMBER = "6285604977129";
 
 export const Services = () => {
   const [featuredService, setFeaturedService] = useState(featuredDefault);
