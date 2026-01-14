@@ -7,14 +7,14 @@ const services = [
   { name: "Downperm + Rootlift", description: "Tampilan sleek, tanpa volume samping", price: "150k", label: "TRENDING" },
   { name: "Full Color Fashion", description: "Warna Vibrant & Fashion", price: "300k", label: "PREMIUM" },
   { name: "Hairlight Color", description: "Teknik Highlight", price: "300k", label: "FAVORIT" },
-  { name: "CORNROW", description: "Teknik Highlight", price: "300k", label: "FAVORIT" },
-  { name: "CORNROW EXTENSION", description: "Teknik Highlight", price: "400k", label: "FAVORIT" },
-  { name: "PERMING", description: "Teknik Highlight", price: "200k", label: "FAVORIT" },
+  { name: "CORNROW", description: "", price: "300k", label: "FAVORIT" },
+  { name: "CORNROW EXTENSION", description: "", price: "400k", label: "FAVORIT" },
+  { name: "PERMING", description: "", price: "200k", label: "FAVORIT" },
 ];
 
 const featuredDefault = { 
   name: "Paket Regular", 
-  description: "Pengalaman grooming lengkap: Konsultasi, Potong Rambut, Cuci, Hairtonic, Styling, dan Minuman segar.", 
+  description: "Pengalaman grooming lengkap: Konsultasi, Potong Rambut, Cuci, Hairtonic dan Styling.", 
   price: "35k",
   label: "BEST SELLER"
 };

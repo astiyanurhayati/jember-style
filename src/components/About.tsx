@@ -1,4 +1,4 @@
-import studioInterior from "@/assets/studio-interior.jpg";
+import heroBg from "@/assets/bg.jpeg";
 import { useState } from "react";
 import { Sparkles, Users, Wrench } from "lucide-react";
 
@@ -18,7 +18,7 @@ const tabsData: TabContent[] = [
     icon: Sparkles,
     title: "Teknologi Terkini",
     description: "Menggunakan peralatan modern dan teknik cutting-edge untuk hasil maksimal. Kami terus update dengan tren dan teknologi terbaru di industri hair styling.",
-    image: studioInterior
+    image: heroBg
   },
   {
     label: "Stylist Profesional",
@@ -26,7 +26,7 @@ const tabsData: TabContent[] = [
     icon: Users,
     title: "Tim Berpengalaman",
     description: "Stylist kami adalah profesional terlatih dengan pengalaman bertahun-tahun. Setiap potongan dirancang khusus sesuai karakter dan gaya hidup Anda.",
-    image: studioInterior
+    image: heroBg
   },
   {
     label: "Konsep Industrial",
@@ -34,7 +34,7 @@ const tabsData: TabContent[] = [
     icon: Wrench,
     title: "Desain Industrial",
     description: "Suasana studio dengan konsep industrial modern yang nyaman dan stylish. Pengalaman grooming yang tidak hanya soal hasil, tapi juga journey-nya.",
-    image: studioInterior
+    image: heroBg
   }
 ];
 
@@ -48,12 +48,12 @@ export const About = () => {
         {/* Main Content Area */}
         <div className="flex-1 relative flex flex-col">
           {/* Image Top Half */}
-          <div className="h-[50%] overflow-hidden relative border-b border-[#111111]/10">
-            <img 
+          <div className="h-[50%] overflow-hidden relative border-b border-[#111111]/10">            <img 
               key={activeTab}
               src={currentTab.image} 
               alt={currentTab.label} 
-              className="w-full h-full object-cover grayscale animate-fade-in" 
+              className="w-full h-full object-cover grayscale animate-fade-in"
+              style={{ objectPosition: "center 30%" }}
             />
             <div className="absolute bottom-0 left-0 w-full flex justify-between px-12 opacity-20">
               {[...Array(6)].map((_, i) => (
